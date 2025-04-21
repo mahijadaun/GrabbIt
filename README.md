@@ -62,7 +62,8 @@
 1. **Clone the Repository**  
    ```sh
    git clone 
-   cd grabbIt
+   cd client #for frontend
+   cd server #for backend
 2. **Install Dependencies**
    ```sh
    npm install
