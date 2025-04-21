@@ -65,5 +65,4 @@
 git clone https://github.com/yourusername/grabbit.git
 cd grabbit
 
-```bash
 npm install
