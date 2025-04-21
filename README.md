@@ -59,10 +59,40 @@
 
 ---
 
-### 📥 Clone the Repository
+1. **Clone the Repository**  
+   ```sh
+   git clone 
+   cd grabbIt
+2. **Install Dependencies**
+   ```sh
+   npm install
+3. **Set Up Environment Variables**
+   ```sh
+    JWT_SECRET=your_jwt_secret_key
+    NODE_ENV=development
+    
+    # Admin credentials
+    SELLER_EMAIL=admin@example.com
+    SELLER_PASSWORD=greatstack123
+    
+    # Cloudinary
+    CLOUDINARY_CLOUD_NAME=your_cloud_name
+    CLOUDINARY_API_KEY=your_cloudinary_api_key
+    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+    
+    # Stripe
+    STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
+    STRIPE_SECRET_KEY=your_stripe_secret_key
+    STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret
 
-```bash
-git clone https://github.com/yourusername/grabbit.git
-cd grabbit
+4. **Run the Development Server**
+   ```sh
+   npm run dev  # or yarn dev
 
-npm install
+## 👤 Author  
+
+Developed by **Mahi Jadaun** 🚀  
+
+Feel free to **contribute**, **suggest improvements**, or **report issues**! 😊  
+
+
